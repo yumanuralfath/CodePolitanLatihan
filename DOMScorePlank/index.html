@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Papan Score</title>
+  </head>
+  <body>
+    <h1>
+      <span id="p1-display"> 0 </span> vs <span id="p2-display"> 0 </span>
+    </h1>
+    <button id="p1-button">+1 P1</button>
+    <button id="p2-button">+1 P2</button>
+    <button id="reset">Reset</button>
+
+    <div>
+      <label for="maxScore">Skor Maksimal</label>
+      <select name="maxScore" id="maxScore">
+        <option value="3">3</option>
+        <option value="6">6</option>
+        <option value="10">10</option>
+      </select>
+    </div>
+  </body>
+
+  <script src="app.js"></script>
 </html>
